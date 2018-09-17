@@ -5,6 +5,7 @@
     line-height: 1.4rem;
     box-sizing: border-box;
     margin: 0;
+    /* padding: 0; */
 }
 
 :root {
@@ -328,16 +329,10 @@ body.modal-open {
     overflow-y: auto;
 }
 
-#modal-content ul {
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-}
-
-#modal-content ul li {
-    padding-bottom: 1rem;
-}
-
-/* #modal #modal-content {
-    clear: both;
+/* #modal-content ul {
+    list-style-type: disc;
 } */
 
+#modal #modal-content {
+    clear: both;
+}
