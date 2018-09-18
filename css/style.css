@@ -321,23 +321,28 @@ body.modal-open {
 }
 
 #modal-content {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font-size: 2.8vh;
     margin-top: 2vh;
     height: 100%;
     overflow-y: auto;
 }
 
-#modal-content ul {
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
+.hotdogOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    box-shadow: 0 0 5px #333;
 }
 
-#modal-content ul li {
-    padding-bottom: 1rem;
+.hotdogName {
+    padding: 0.5rem;
 }
 
-/* #modal #modal-content {
+#modal #modal-content {
     clear: both;
-} */
+}
 
